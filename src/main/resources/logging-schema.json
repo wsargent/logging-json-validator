@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "logging",
+  "description": "JSON representation of logging",
+  "type": "object",
+  "properties": {
+    "@timestamp": {
+      "type": "string"
+    },
+    "timeMillis": {
+      "type": "string"
+    },
+    "logging": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": ["version"]
+    },
+    "level": {
+      "type": "string"
+    },
+    "loggerName": {
+      "type": "string"
+    },
+    "thread": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "line": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "enclosing": {
+          "type": "string"
+        }
+      }
+    },
+    "correlationId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "@timestamp",
+    "timeMillis",
+    "logging",
+    "level",
+    "loggerName",
+    "thread",
+    "message"
+  ]
+}

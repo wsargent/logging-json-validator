@@ -1,0 +1,23 @@
+{
+  "@timestamp" : "2018-03-01T07:00:47.516Z",
+  "timeMillis" : "1519930847516",
+  "logging" : {
+    "version" : "1.0.0"
+  },
+  "level" : "INFO",
+  "loggerName" : "some-example-logger",
+  "thread" : "default-akka.actor.default-dispatcher-3",
+  "message" : "Handling incoming request GET /counter",
+  "source" : {
+    "line" : "36",
+    "file" : "/Users/wsargent/work/example.scala",
+    "enclosing" : "logRequestAndResponse $anonfun"
+  },
+  "correlationId" : "6ef4e3b7-57a7-4117-b644-59c74a853828",
+  "httpRequestHeaders" : "host: localhost:8080\nconnection: keep-alive\nupgrade-insecure-requests: 1\nuser-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36\naccept: text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, image/apng, */*;q=0.8\naccept-encoding: gzip, deflate, br\naccept-language: en-US, en;q=0.9\ntimeout-access: <function1>",
+  "httpRequestPath" : "/counter",
+  "httpRequestMethod" : "GET",
+  "reqResp" : "REST_INBOUND_START",
+  "httpRequestBody" : "",
+  "httpRequestQuery" : ""
+}
